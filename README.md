@@ -108,24 +108,6 @@ Ran 15 tests in 0.010s
 OK
 ```
 
-For failures:
-
-```bash
-.............F.
-======================================================================
-FAIL: test_send_message_success (tests.test_sender.TestMessageSender.test_send_message_success)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "D:\Z_Playground\sms-simulator\tests\test_sender.py", line 26, in test_send_message_success
-    self.assertEqual(self.message_sender.sent_count, 2)
-AssertionError: 1 != 2
-
-----------------------------------------------------------------------
-Ran 15 tests in 0.011s
-
-FAILED (failures=1)
-```
-
 For individual class testing:
 
 ```bash
