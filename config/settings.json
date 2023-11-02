@@ -1,0 +1,28 @@
+{
+    "message_count": 400000,
+    "update_interval": 1,
+    "senders": [
+        {
+            "mean_wait_time": 0.1,
+            "failure_rate": 0.02,
+            "quantity": 100
+        },
+        {
+            "mean_wait_time": 0.2,
+            "failure_rate": 0.001,
+            "quantity": 800
+        },
+        {
+            "mean_wait_time": 0.3,
+            "failure_rate": 0.8,
+            "quantity": 70
+        },
+        {
+            "mean_wait_time": 0.5,
+            "failure_rate": 0.5,
+            "quantity": 60
+        }
+    ],
+    "resend_failed_msg": false,
+    "max_resend_attempts": 3
+}
